@@ -16,7 +16,7 @@
 ## Result
 Test Score 1.11923을 얻으며 수강생 50여명 중 가장 정확한 쇼핑 상품 분류 모델을 구현함
 <br/><br/>
-![image](https://user-images.githubusercontent.com/87184009/127636091-1dd2562d-9d7b-4812-beab-06475731f00d.png)
+![image](https://user-images.githubusercontent.com/87184009/127637326-58a6fe34-25e4-4540-b380-63dde355f891.png)
 
 
 ## References
