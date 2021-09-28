@@ -31,4 +31,4 @@ http://kalman.kaist.ac.kr/coe202/
 https://arena.kakao.com/c/5 \
 https://github.com/kakao-arena/shopping-classification
 
-최종본의 preprocess.ipynb, train.ipynb가 소실되어 예전 백업 버전을 업로드함.
+최종본의 preprocess.ipynb, train.ipynb가 소실되어 초기 버전의 코드를 업로드함.
