@@ -17,18 +17,18 @@
 인공신경망 구조는 전통적인 relu, softmax가 있는 mlp layer로 구성했으며 전처리 작업만으로 모델의 성능을 끌어올렸다고 볼 수 있음.
 
 ## Result
-Test Score 1.11923을 얻으며 수강생 50여명 중 가장 정확한 쇼핑 상품 분류 모델을 구현함
+Test Score : 1.11923 \
+Implemented the most accurate shopping product classification model among 50 students.
 <br/><br/>
 ![image](https://user-images.githubusercontent.com/87184009/127637326-58a6fe34-25e4-4540-b380-63dde355f891.png)
-
 
 ## References
 
 KAIST CoE202: Fundamentals of Artificial Intelligence \
 http://kalman.kaist.ac.kr/coe202/
 
-쇼핑몰 상품 카테고리 분류\
+Kakao Shopping Product Classification Contest\
 https://arena.kakao.com/c/5 \
 https://github.com/kakao-arena/shopping-classification
 
-최종본의 preprocess.ipynb, train.ipynb가 소실되어 초기 버전의 코드를 업로드함.
+Unfortunately, the final version of preprocess.ipynb, train.ipynb was lost and the initial version of the code was uploaded.
