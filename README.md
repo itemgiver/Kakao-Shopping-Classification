@@ -4,19 +4,19 @@
 
 ## Introduction
 
-쇼핑 상품의 상품명, 브랜드명, 모델명, 가격, 이미지 정보들을 이용해 쇼핑 상품을 2000여개의 카테고리로 분류하는 연구 \
-실제 카카오에서 진행했던 "쇼핑몰 상품 카테고리 분류" 대회는 코드를 실행하기 위해 최소 450GB 용량이 필요했기 때문에 \
-수업 조교분들이 Google Colab에서 돌릴 수 있는 정도의 수준으로 데이터를 줄여 진행하였음.
+In this project, I classified millions of shopping products into 2,000 categories. Each product has a product name, brand name, model name, price, and image information. Product name, brand name, and model name are written in Korean. I used NLP techniques and pattern matching to cluster similar product, brand, and model names. The proper classification of shopping products is related to our real life, so I thought the experience of working on this project would be helpful when I work in the industry.
 
-카카오 대회에서는 쇼핑몰 상품 데이터를 57개의 대분류, 552개의 중분류, 3190개의 소분류, 404개의 세분류 카테고리로 분류해야하지만 \
-이 프로젝트에서는 쇼핑몰 상품 데이터를 52개의 대분류, 463개의 중분류, 2070개의 소분류, 183개의 세분류 카테고리로 분류함.
+## Research Method
 
-## Idea
-상품명, 브랜드명, 모델명 같은 경우에는 인접한 단어들의 정보를 함께 이용하도록 preprocessing함. \
-그러나 Unique한 데이터가 너무 많아졌기 때문에 문자열 알고리즘을 통해 비슷한 단어들을 한 분류로 묶이게 하여 Embedding함. \
-인공신경망 구조는 전통적인 relu, softmax가 있는 mlp layer로 구성했으며 전처리 작업만으로 모델의 성능을 끌어올렸다고 볼 수 있음.
+1. Print product name, brand name, and model name to get an idea of how to cluster the names.
+2. Recognized we need additional preprocessing steps to do embedding.
+3. Found out that pattern matching could be an efficient process to preprocess the words in the Korean product names.
+4. Combined state-of-the-art NLP techniques and pattern matching in the preprocessing step.
+5. Build a neural network model consisting of two hidden layers and a softmax function.
+6. Tuned hyperparameters in both preprocessing and training steps.
 
 ## Result
+
 Test Score : 1.11923 \
 Implemented the most accurate shopping product classification model among 50 students.
 <br/><br/>
