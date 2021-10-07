@@ -9,7 +9,7 @@ In this project, I classified millions of shopping products into 2,000 categorie
 ## Research Method
 
 1. Print product name, brand name, and model name to get an idea of how to cluster the names.
-2. Recognized we need additional preprocessing steps to do embedding.
+2. Recognized that we need additional preprocessing steps to do embedding.
 3. Found out that pattern matching could be an efficient process to preprocess the words in the Korean product names.
 4. Combined state-of-the-art NLP techniques and pattern matching in the preprocessing step.
 5. Build a neural network model consisting of two hidden layers and a softmax function.
